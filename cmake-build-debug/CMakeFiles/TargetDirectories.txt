@@ -1,3 +1,0 @@
-/home/Vladislav.Kuznetsov/Vl/Projects/examples/vcpkg-git-example/cmake-build-debug/CMakeFiles/vcpkg_git_example.dir
-/home/Vladislav.Kuznetsov/Vl/Projects/examples/vcpkg-git-example/cmake-build-debug/CMakeFiles/edit_cache.dir
-/home/Vladislav.Kuznetsov/Vl/Projects/examples/vcpkg-git-example/cmake-build-debug/CMakeFiles/rebuild_cache.dir
