@@ -1,6 +1,6 @@
 #include "src/example.cpp"
 
 int main() {
-    vcpkgexample::get_sql_version();
+    vcpkgexample::VCPKGExampleStruct::get_sql_version();
     return 0;
 }
