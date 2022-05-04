@@ -32,6 +32,3 @@ install(EXPORT ${VCPKG_NAME}-targets
         DESTINATION ${CMAKE_INSTALL_DATADIR}/${VCPKG_NAME})
 
 add_executable(vcpkg_git_example main.cpp)
-
-find_package(unofficial-sqlite3 CONFIG REQUIRED)
-target_link_libraries(vcpkg_git_example PRIVATE unofficial::sqlite3::sqlite3)
