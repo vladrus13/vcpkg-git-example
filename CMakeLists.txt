@@ -8,6 +8,7 @@ set(CMAKE_CXX_STANDARD 14)
 set(VCPKG_NAME vcpkggitexample)
 
 add_library(vcpkggitexample src/example.cpp include/example.h)
+add_library(Vcpkggitexample::vcpkggitexample ALIAS vcpkggitexample)
 
 configure_package_config_file(cmake/config.cmake.in
         ${CMAKE_CURRENT_BINARY_DIR}/${VCPKG_NAME}-config.cmake
