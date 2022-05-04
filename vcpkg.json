@@ -1,0 +1,10 @@
+{
+  "name" : "vcpkggitexample",
+  "version-string" : "1.0.0",
+  "builtin-baseline" : "b726998b816c583ff549e29d98fe06dbd6d0f694",
+  "dependencies" : [ {
+    "name" : "sqlite3",
+    "version>=" : "3.37.2#1",
+    "$comment" : "find_package(unofficial-sqlite3 CONFIG REQUIRED)\ntarget_link_libraries(main PRIVATE unofficial::sqlite3::sqlite3)"
+  } ]
+}
